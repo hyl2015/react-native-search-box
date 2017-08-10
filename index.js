@@ -248,7 +248,6 @@ class Search extends PureComponent {
             backgroundColor: this.props.backgroundColor
           }
         ]}
-        onLayout={this.onLayout}
       >
         <AnimatedTextInput
           ref="input_keyword"
